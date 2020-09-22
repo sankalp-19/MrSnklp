@@ -32,17 +32,17 @@ DEFAULTUSER = Config.ALIVE_NAME if Config.ALIVE_NAME else uname().node
 async def amireallyalive(on):
     """ For .on command, check if the bot is running.  """
     await on.edit(
-                     " Hey `i am 𝐎𝓷 My 𝕄𝕒𝕤𝕥𝕖𝕣`\n"
+                     " 𝑯𝒆𝒚 `𝑰 𝑨𝒎 𝑶𝒏 𝑴𝒚 𝑴𝒂𝒔𝒕𝒆𝒓`\n"
                      " \n"
-                     f"тєℓєтнση νєяѕιση: {version.__version__} \n"
-                     f"P̳y̳t̳h̳o̳n̳ ̳v̳e̳r̳s̳i̳o̳n̳: {python_version()} \n"
+                     f"𝑻𝒆𝒍𝒆𝒕𝒉𝒐𝒏 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: {version.__version__} \n"
+                     f"𝑷𝒚𝒕𝒉𝒐𝒏 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: {python_version()} \n"
                      f"------------------------------------ \n"
-                     f"U̴̧̡̫̤̦̇͆͛̿͑̈́̂̊̚͝s̷̡͓͎͘e̷̹̙̝̽̾͂ŕ̴̡̛̺̖̝̬̣͖͕̐̅͌͂͌̕: {DEFAULTUSER} \n"
-                     f"🅲🆁🅴🅰🆃🅾🆁: @🄼🄰🅈🅄🅁_🄺🄰🅁🄰🄽🄸🅈🄰 \n"
-                     f"𝓞𝔀𝓷𝓮𝓻: `@𝓣𝓱𝓻𝓮𝓮_𝓒𝓾𝓫𝓮_𝓣𝓮𝓚𝓷𝓸𝔀𝓪𝔂𝓼` \n"
-                     f"ᗯEᗷᔕITE: 𝖍𝖙𝖙𝖕𝖘://𝖜𝖜𝖜.𝖋𝖆𝖈𝖊𝖇𝖔𝖔𝖐.𝖈𝖔𝖒/𝕿𝖊𝖐𝖓𝖔𝖜𝖆𝖞𝖘 \n"
-                     f"U҉s҉e҉r҉b҉o҉t҉: @ₜₑₛₜing_bₒₜ \n"
-                     "`𝘪 𝙘𝙖𝙣'𝙩 Ðïê`")    
+                     f"𝑼𝒔𝒆𝒓 {DEFAULTUSER} \n"
+                     f"𝑪𝒓𝒆𝒂𝒕𝒐𝒓: @𝗠𝗿𝗦𝗻𝗸𝗹𝗽 \n"
+                     f"𝑶𝒘𝒏𝒆𝒓: @𝗠𝗿𝗦𝗻𝗸𝗹𝗽 \n"
+                     f"𝑾𝒆𝒃𝒔𝒊𝒕𝒆: 𝒉𝒕𝒕𝒑𝒔://𝒘𝒘𝒘.𝒕.𝒎𝒆/𝑴𝒓𝑺𝒏𝒌𝒍𝒑 \n"
+                     f"𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝟮.𝟬 \n"
+                     "`𝑰 𝑪𝒂𝒏'𝒕 𝑫𝒊𝒆`")    
 
     
 @borg.on(admin_cmd("3"))
