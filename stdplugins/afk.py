@@ -95,9 +95,9 @@ async def _(event):
             afkb_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFKB = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await borg.send_message(event.chat_id, f"**My King 👑 {DEFAULTUSER} 👑 is Going afk!** __because My Master is {reason}__")
+            await borg.send_message(event.chat_id, f"**My King 👑 {DEFAULTUSER} 👑 is Going afk!** __REASON- {reason}__")
         else:
-            await borg.send_message(event.chat_id, f"**My King 👑 {DEFAULTUSER} 👑 is Going afk!** __because My Master is {AFKSK}__")
+            await borg.send_message(event.chat_id, f"**My King 👑 {DEFAULTUSER} 👑 is Going afk!** __REASON- {AFKSK}__")
     if user.last_name:
         await event.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ OFFLINE ]"))
     else:
